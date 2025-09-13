@@ -2,7 +2,6 @@
 
 A simple project to upload resumes, extract key information, and get AI-powered feedback and upskill suggestions.
 
----
 
 ## Assignment Brief
 
@@ -20,7 +19,6 @@ A simple project to upload resumes, extract key information, and get AI-powered 
     - Recommend additional skills to learn/upskill.
   - Return all data in JSON.
 
----
 
 ## Tech Stack
 
@@ -29,7 +27,6 @@ A simple project to upload resumes, extract key information, and get AI-powered 
 - **Database:** SQLite (default)  
 - **LLM:** Gemini free tier APIs via LangChain  
 
----
 
 ## API Output Example
 
@@ -45,22 +42,7 @@ A simple project to upload resumes, extract key information, and get AI-powered 
   "upskill_suggestions": "Learn Docker, Kubernetes for deployment readiness."
 }
 
-**## Refresh GitHub**
+
 
 Go to https://github.com/Eslavathanil/Smart-Resume-Analyzer
  in your browser.
-Your new README.md will now appear automatically on the repository front page.
-
-**Uploading through GitHub web UI** 
-
-If you don’t want to use the terminal:
-
-Open your repo page on GitHub.
-
-**Click Add file **→ Upload files.
-
-Drag-drop your README.md.
-
-Scroll down, enter a commit message, and click Commit changes.
-
-That’s it — your README.md is live on GitHub.

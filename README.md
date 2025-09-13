@@ -44,5 +44,3 @@ A simple project to upload resumes, extract key information, and get AI-powered 
 
 
 
-Go to https://github.com/Eslavathanil/Smart-Resume-Analyzer
- in your browser.

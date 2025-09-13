@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Smart Resume Analyzer
 
-## Project info
+A simple project to upload resumes, extract key information, and get AI-powered feedback and upskill suggestions.
 
-**URL**: https://lovable.dev/projects/a2b6160d-f3c4-442a-af7b-3582876c05eb
+---
 
-## How can I edit this code?
+## Assignment Brief
 
-There are several ways of editing your application.
+- **Frontend (React):**  
+  UI with two tabs  
+  1. Upload a new resume and display extracted information, resume rating, improvement areas, and upskill suggestions.  
+  2. Show all previously uploaded resumes (from DB) in a table with a Details button that opens a modal showing the full extracted content.
 
-**Use Lovable**
+- **Backend (Python – Flask/FastAPI/Django):**  
+  - Accept resume upload (PDF/DOCX).  
+  - Extract as much structured data as possible (skills, work experience, education, projects, certifications, contact info, links, languages, etc.).  
+  - Store extracted data in a database (SQLite by default, can switch to Postgres).  
+  - Use Gemini free tier APIs with LangChain to analyze the resume:
+    - Suggest improvements.
+    - Recommend additional skills to learn/upskill.
+  - Return all data in JSON.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a2b6160d-f3c4-442a-af7b-3582876c05eb) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- **Frontend:** React  
+- **Backend:** Python (FastAPI / Flask / Django)  
+- **Database:** SQLite (default)  
+- **LLM:** Gemini free tier APIs via LangChain  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## API Output Example
 
-Follow these steps:
+```json
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com",
+  "core_skills": ["java", "react"],
+  "soft_skills": ["hardworking", "team player"],
+  "resume_rating": 8,
+  "improvement_areas": "Add measurable achievements to work experience.",
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+  "upskill_suggestions": "Learn Docker, Kubernetes for deployment readiness."
+}
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**## Refresh GitHub**
 
-# Step 3: Install the necessary dependencies.
-npm i
+Go to https://github.com/Eslavathanil/Smart-Resume-Analyzer
+ in your browser.
+Your new README.md will now appear automatically on the repository front page.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+**Uploading through GitHub web UI** 
 
-**Edit a file directly in GitHub**
+If you don’t want to use the terminal:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Open your repo page on GitHub.
 
-**Use GitHub Codespaces**
+**Click Add file **→ Upload files.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Drag-drop your README.md.
 
-## What technologies are used for this project?
+Scroll down, enter a commit message, and click Commit changes.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a2b6160d-f3c4-442a-af7b-3582876c05eb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+That’s it — your README.md is live on GitHub.

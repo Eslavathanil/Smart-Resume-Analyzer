@@ -2,17 +2,11 @@
 
 A simple project to upload resumes, extract key information, and get AI-powered feedback and upskill suggestions.
 
-## UI Preview
-
-### Upload Resume Tab
-
-![Upload Resume Tab](screenshots/upload-tab.png)
-
-This screen allows users to upload a resume (PDF/DOCX). After uploading, resume is processed to extract data and analyzed by LLM for improvement suggestions.
 # Smart Resume Analyzer
 
-**Live Demo:** [https://smartairesume.netlify.app/](https://smartairesume.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://smartairesume.netlify.app/)
 
+A simple project to upload resumes, extract key information, and get AI-powered feedback and upskill suggestions.
 
 - **Frontend (React):**  
   UI with two tabs  
